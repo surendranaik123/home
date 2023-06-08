@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="login.css" />
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<title>Login</title>
+</head>
+<body>
+	<form method="post" action="/Home/loginser">
+		<header>
+			<div class="logo">
+				<div class="logoimg">
+					<img src="./image/view.jpeg" alt="logo">
+				</div>
+			</div>
+			<nav class="navigation">
+				<a href="#">Home</a> <a href="#">About</a> <a href="#">Services</a>
+				<a href="#">Contact</a>
+			</nav>
+		</header>
+
+		<div class="login">
+
+			<div class="heading">
+				<h1>Loging Page</h1>
+				<br>
+				<div class="email">
+					<i class="fa-solid fa-envelope"></i> <input type="text"
+						placeholder="Enter Email" name="email" required> <label>Email</label>
+				</div>
+				<br>
+				<div class="">
+					<i class="fa-solid fa-lock"></i> <input type="password"
+						placeholder="Enter Password" name="password" required> <label>Password</label>
+				</div>
+				<br>
+				<div class="remember-forgot ">
+					<input type="checkbox" checked="checked">Remember me<a
+						href="Forgotpassword.html">Forgot password?</a>
+				</div>
+				<br>
+				<div>
+					<button class="button">Login</button>
+				</div>
+				<br>
+				<div class="">
+					<label>Or login with</label>
+					 <a href="Home.html"
+							class="fa-brands fa-square-facebook"></a> <a
+							href="Home.html"
+							class="fa-brands fa-square-twitter"></a> <a
+							href="Home.html" class="fa-brands fa-google"></a> 
+				</div>
+				<br>
+				<p>
+					Don't have account?<a href="Registration.html">Registration</a>
+				</p>
+				<br>
+			</div>
+		</div>
+
+		<footer>
+			<div class="split left">
+				<div class="centered">
+	
+						<img src="./image/img_avatar.png" alt="logo"><br> <i
+							class="fa-solid fa-user"></i><label>Name:[B.Surendra
+							Naik]</label><br> <i class="fa-regular fa-pen-to-square"></i><label>Qualification:[B.Tech]</label><br>
+						<i class="fa-brands fa-firefox"></i></i><label>Specialization:[EEE]</label>
+					</div>
+				</div>
+			
+
+			<div class="split middel">
+				<div class="centered">
+					<i class="fa-solid fa-mobile"></i> <label>Phone:[+917428730894]</label><br>
+					<i class="fa-solid fa-envelope"></i> <label>Email:[suri@gmail.com]</label><br>
+					<i class="fa-solid fa-location-dot"></i> <label>Location:[Plote.no:3/31/1,Main
+						road,Marrimanthanda[v],Pattikonda[m],Kurnool[d],Andhra
+						pradesh,India..,51830]</label>
+				</div>
+			</div>
+			<div class="split right">
+				<div class="centered">
+					<div>
+						<h3>STAY CONNECTED</h3>
+
+					</div>
+					<div style="color: blue">
+						<br> <a href="#"
+							class="fa-brands fa-square-facebook"></a> <a
+							href="#"
+							class="fa-brands fa-square-twitter"></a> <a
+							href="#" class="fa-brands fa-google"></a> <a
+							href="#"
+							class="fa-brands fa-square-gitlab"></a> <a
+							href="#" class="fa-brands fa-linkedin"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</form>
+</body>
+</html>

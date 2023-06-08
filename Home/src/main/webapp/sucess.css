@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'sans-serif';
+}
+
+header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	z-index: 99;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+}
+
+.logoimg {
+width:100%;
+  position: absolute;
+  top:50%;
+  left:5%;
+  transform: translate(-50%, -20%);
+  text-align: center;
+}
+
+
+.logoimg img {
+  width:80px;
+  border-radius: 50%;
+}
+
+.navigation a {
+	position: relative;
+	font-size: 1.5em;
+	text-decoration: none;
+	font-weight: 500;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+
+.navigation a:hover {
+	color: red;
+	animation: anim2 500ms cubic-bezier(0.175, 0.885, 0.32, 0.275) infinite;
+}
+
+@keyframes anim2 {
+  0% {
+    opacity: 1;
+    transform: translateY(px);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  75% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+	
+	
+}
+footer {
+	position: fixed;
+	color:blue;
+	bottom: 0;
+}
+
+body {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.sucess{
+	font-size: 1.3em;
+	position: relative;
+	height: 350px;
+	width:600px;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 70px;
+	
+
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 80%;
+  overflow-x: hidden;
+  padding-top: 10px;
+ 
+}
+.left {
+left:-12%;
+font-size: 1.2em;
+ 
+}
+
+/* Control the right side */
+.right {
+font-size: 1.5em;
+	right: -15%;
+	
+  
+}
+.middel{
+    left:25%;
+	right: 33.33%;
+	font-size: 1.3em;
+
+		
+}
+
+.centered {
+width: 100%;
+	position: absolute;
+	top: 10%;
+	left:46%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+
+.centered img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+
